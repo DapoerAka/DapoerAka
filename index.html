@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdf6e3;
+      color: #3e2723;
+    }
+    header {
+      background-color: #ffca28;
+      color: #3e2723;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .form-section {
+      background-color: #fff8e1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #ffb300;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #ffe082;
+      color: #3e2723;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Toko Online Kami
+  </header>
+  <div class="container">
+    <section class="form-section">
+      <h2>Hubungi Kami</h2>
+      <form>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+    <section class="form-section">
+      <h2>Form Pemesanan</h2>
+      <form>
+        <input type="text" placeholder="Nama Produk" required>
+        <input type="number" placeholder="Jumlah" required>
+        <input type="text" placeholder="Alamat Pengiriman" required>
+        <button type="submit">Pesan Sekarang</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 Toko Online Kami
+  </footer>
+</body>
+</html>
